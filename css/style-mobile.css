@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
 
+:root {
+  --primary-dark-blue: hsl(243, 87%, 12%);
+  --primary-des-blue: hsl(238, 22%, 44%);
+  --accent-bright-blue: hsl(224, 93%, 58%);
+  --accent-moderate-cyan: hsl(170, 45%, 43%);
+  --neutral-grayish-blue: hsl(240, 75%, 98%);
+  --neutral-light-gray: hsl(0, 0%, 75%);
+  
+  --heading-font: 'Raleway', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -8,7 +24,7 @@
   justify-content: space-between;
 
   padding: 25px;
-  font-family: Raleway, sans-serif;
+  font-family: var(--heading-font);
 }
 
 .navbar--logo {
@@ -24,3 +40,46 @@
   font-size: 0.75rem;
 }
 
+/* Get started section */
+.get-started {
+  padding: 30px;
+  text-align: center;
+}
+
+.get-started--image {
+  width: 100%;
+}
+
+.get-started--title {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+  margin: 30px 0;
+}
+
+.get-started--text {
+  margin: 30px 0;
+  line-height: 1.2;
+}
+
+.get-started--form {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.get-started--form input[type="email"] {
+  padding: 13px 20px;
+}
+
+.get-started--form button {
+  border: none;
+  background-color: var(--accent-bright-blue);
+  color: var(--neutral-grayish-blue);
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
