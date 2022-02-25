@@ -1,0 +1,1 @@
+1. Posar bon text alt a les imatges.
