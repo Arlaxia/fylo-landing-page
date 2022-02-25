@@ -16,6 +16,7 @@
 body {
   font-family: var(--body-font);
   color: var(--primary-dark-blue);
+  text-align: center;
 }
 
 /* Navbar */
@@ -44,7 +45,6 @@ body {
 /* Get started section */
 .get-started {
   padding: 30px;
-  text-align: center;
 }
 
 .get-started--image {
@@ -76,6 +76,115 @@ body {
 }
 
 .get-started--form button {
+  border: none;
+  background-color: var(--accent-bright-blue);
+  color: var(--neutral-grayish-blue);
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Productive section */
+.curve {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+.productive {
+  padding: 30px;
+  padding-top: 0;
+  background-color: var(--neutral-grayish-blue);
+}
+
+.productive--image {
+  width: 100%;
+}
+
+.productive--title {
+  font-weight: bold;
+  margin-top: 90px;
+  margin-bottom: 35px;
+  font-size: 1.1rem;
+}
+
+.productive--text {
+  color: var(--neutral-light-gray);
+  margin-bottom: 20px;
+}
+
+.productive--link {
+  color: var(--accent-moderate-cyan);
+  text-decoration: underline;
+}
+
+.testimonial {
+  padding: 30px;
+  background-color: var(--neutral-grayish-blue);
+  border-radius: 5px;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial--quote {
+  text-align: left;
+  border: 1px black;
+  line-height: 1.5;
+}
+
+.testimonial--footer {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.testimonial--quote h2 {
+  font-weight: bold;
+}
+
+.testimonial--footer span {
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.testimonial--image {
+  width: 25px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.early-access {
+  background-color: var(--primary-des-blue);
+  padding: 20px;
+}
+.early-access--title {
+  font-size: larger;
+  font-weight: bold;
+  color: var(--neutral-grayish-blue);
+  margin-bottom: 20px;
+}
+
+.early-access--quote {
+  color: var(--neutral-grayish-blue);
+  margin-bottom: 20px;
+}
+
+.early-access--form {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.early-access--form input[type="email"] {
+  padding: 13px 20px;
+}
+
+.early-access--form button {
   border: none;
   background-color: var(--accent-bright-blue);
   color: var(--neutral-grayish-blue);
