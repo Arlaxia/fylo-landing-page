@@ -117,13 +117,15 @@ body {
 .productive--link {
   color: var(--accent-moderate-cyan);
   text-decoration: underline;
+  font-size: 0.8rem;
 }
 
 .testimonial {
   padding: 30px;
   background-color: var(--neutral-grayish-blue);
   border-radius: 5px;
-  width: 60%;
+  width: 70%;
+  font-size: 0.7rem;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -134,26 +136,33 @@ body {
   text-align: left;
   border: 1px black;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .testimonial--footer {
   font-size: smaller;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
 }
 
-.testimonial--quote h2 {
+.testimonial--footer h3 {
   font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.7rem;
 }
 
 .testimonial--footer div {
   font-size: smaller;
   font-weight: normal;
+  text-align: left;
 }
 
 .testimonial--image {
   width: 25px;
   border-radius: 50%;
-  margin-top: 10px;
 }
 
 /* Early access section */
