@@ -213,3 +213,7 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
+.footer--icons svg {
+  height: 20px;
+}
