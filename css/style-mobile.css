@@ -115,9 +115,17 @@ body {
 }
 
 .productive--link {
+  display: inline-flex;
+  gap: 5px;
   color: var(--accent-moderate-cyan);
-  text-decoration: underline;
   font-size: 0.8rem;
+
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--accent-moderate-cyan);
+}
+
+.productive--link img {
+  margin: auto 0;
 }
 
 .testimonial {
@@ -221,8 +229,4 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
-
-.footer--icons svg {
-  height: 20px;
 }
