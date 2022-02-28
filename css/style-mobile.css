@@ -145,7 +145,7 @@ body {
   font-weight: bold;
 }
 
-.testimonial--footer span {
+.testimonial--footer div {
   font-size: smaller;
   font-weight: normal;
 }
@@ -156,9 +156,10 @@ body {
   margin-top: 10px;
 }
 
+/* Early access section */
 .early-access {
   background-color: var(--primary-des-blue);
-  padding: 20px;
+  padding: 80px 20px;
 }
 .early-access--title {
   font-size: larger;
@@ -192,4 +193,23 @@ body {
   padding: 15px;
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-dark-blue);
+  text-align: left;
+  padding: 30px;
+  color: var(--neutral-grayish-blue);
+}
+
+.footer > ul {
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.footer--icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
